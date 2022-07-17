@@ -13,16 +13,3 @@
   --brown: rgb(170, 130, 105);
   --dark-navy-blue: rgb(14, 28, 47);
 }
-.projectCard-stack-technologies-icon{
-  height: 2rem;
-  width: auto;
-}
-.projectCard-container{
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr) )
-}
-.projectCard {
-  padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}

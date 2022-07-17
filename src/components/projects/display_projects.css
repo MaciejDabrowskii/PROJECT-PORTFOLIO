@@ -1,0 +1,75 @@
+* {
+    /* box-sizing:border-box; */
+  }
+
+.projectCard-container{
+  padding: 3rem;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr))
+}
+.projectCard {
+  padding: 25px 30px 10px 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: fit-content;
+  max-height: 1000px;
+  transition: max-height 1000ms ease;
+}
+.projectCard.expand{
+    max-height: 900px;
+
+  }
+
+.projectCard-header{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.projectCard-title{
+}
+
+.projectCard-links-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: .3rem;
+    align-items: center;
+    margin-right: .4rem;
+    font-size: 1.5rem;
+}
+.projectCard-stack-container {
+    
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 800ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+.projectCard-stack-technologies, .projectCard-stack-additional{
+margin: 1rem 0;
+display: flex;
+gap: .6rem;
+align-items: center;
+}
+
+.projectCard-stack-technologies-icon{
+    height: 2rem;
+    width: auto;
+  }
+  .projectCard-expand-container {
+    font-size: 2rem;
+    transition: transform 350ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

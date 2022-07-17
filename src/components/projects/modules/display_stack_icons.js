@@ -7,7 +7,9 @@ import ICONS from "../../../data/icons";
 function DisplayStack(props)
 {
   return (
-    <div className="projectCard-stack-container">
+    <div
+      className="projectCard-stack-container"
+    >
       <div className="projectCard-stack-technologies">
         Technologies:
         {
