@@ -7,7 +7,7 @@
   --yellow: rgb(250, 235, 179);
   --orange: rgb(226, 187, 125);
   --brown: rgb(170, 130, 105);
-  --dark-navy-blue: rgb(14, 28, 47);
+  --dark-navy-blue: rgb(8, 19, 34);
 }
 
 .projectCard-container {
@@ -17,6 +17,7 @@
   grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
   background-image: linear-gradient(to bottom,  white, var(--orange));
   width: 100%;
+  height: max-content;
 }
 
 .projectCard {
@@ -29,6 +30,11 @@
 
 .projectCard-slide-container > * {
   color: var(--orange);
+}
+
+.fa-angle-left:active, .fa-angle-right:active {
+  color: var(--brown);
+  transition: color 200ms ease;
 }
 
 .projectCard-info {
@@ -70,25 +76,23 @@
   transition: color 200ms ease-in;
 }
 
-.projectCard-stack-container,
-.projectCard-assignment-container {
+.container{
+  height: 0;
+  visibility: hidden;
   opacity: 0;
-  animation-name: fadein;
-  animation-duration: 800ms;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  font-family: "Secular One", sans-serif;
-  color: var(--dark-blue);
+  max-height: 800px;
+  transition:  opacity 300ms linear, height 300ms ease;
 }
 
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
+.container.expand{
+  height: 15rem;
+  visibility: visible;
+  opacity: 1;
+}
 
-  100% {
-    opacity: 1;
-  }
+.projectCard-stack-container{
+  font-family: "Secular One", sans-serif;
+  color: var(--dark-blue);
 }
 
 .projectCard-stack-technologies{
@@ -111,6 +115,13 @@ align-items: center;
 .projectCard-assignment-container {
   padding-bottom: 1rem;
   border-bottom: 2px solid var(--orange);
+  font-family: "Secular One", sans-serif;
+  color: var(--dark-blue);
+}
+
+.projectCard-assignment-logo:hover {
+  transform: rotateY(360deg);
+  transition: transform 400ms ease;
 }
 
 .projectCard-stack-technologies-icon {

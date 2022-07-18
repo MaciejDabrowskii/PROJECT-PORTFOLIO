@@ -32,13 +32,18 @@ function DisplayProjects()
     setExpand({ ...expand, [project.name]: !expand[project.name] });
   };
 
+  const style = {
+    display: "none",
+    opacity: 1,
+  };
+
   return (
     <div className="projectCard-container">
       {
         DATA.Projects.map((project) => (
           <div
             className={`projectCard${expand[project.name] ? " expand" : ""}`}
-            key={uniqid()}
+            key={project.name}
           >
             <DisplayImgCarousel
               project={project}
@@ -48,18 +53,16 @@ function DisplayProjects()
               <DisplayLinks project={project} />
             </div>
             <p className="projectCard-info">{project.description}</p>
-            {expand[project.name]
-            && (
-              <div>
-                <DisplayStack
-                  Technologies={project.Technologies}
-                  Additional={project.Additional}
-                />
-                <DisplayAssignment
-                  project={project}
-                />
-              </div>
-            )}
+            <div className={`container${expand[project.name] ? " expand" : ""}`}>
+              <DisplayStack
+                Technologies={project.Technologies}
+                Additional={project.Additional}
+              />
+              <DisplayAssignment
+                project={project}
+              />
+            </div>
+
             <div
               style={{ transform: expand[project.name] ? "rotateX(180deg)" : "none" }}
               className="projectCard-expand-container"

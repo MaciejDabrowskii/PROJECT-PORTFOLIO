@@ -34,8 +34,9 @@ function DisplayImgCarousel(props)
     justifyContent: "center",
   };
   const slideImgStyle = {
-    width: "85%",
+    width: "90%",
     borderRadius: "10px",
+    height: "auto",
   };
   const slideLeftArrowStyle = {
     display: "flex",

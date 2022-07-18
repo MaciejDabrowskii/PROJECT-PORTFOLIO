@@ -15,6 +15,7 @@ function DisplayStack(props)
         {
             props.Technologies.map((technologie) => (
               <img
+                key={technologie}
                 src={ICONS[technologie]}
                 alt={technologie}
                 className="projectCard-stack-technologies-icon"
@@ -29,6 +30,7 @@ function DisplayStack(props)
         {
             props.Additional.map((el) => (
               <img
+                key={el}
                 src={`${ICONS[el]}`}
                 alt={el}
                 className="projectCard-stack-technologies-icon"
