@@ -16,6 +16,8 @@ const ICONS = {
   webpack: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
 
   GitHub: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+
+  Odin: "https://avatars.githubusercontent.com/u/4441966?s=200&v=4",
 };
 
 export default ICONS;

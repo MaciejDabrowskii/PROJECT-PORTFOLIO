@@ -10,6 +10,7 @@ import DATA from "../../data/data";
 import DisplayStack from "./modules/display_stack_icons";
 import DisplayImgCarousel from "./modules/display_img_carousel";
 import DisplayLinks from "./modules/display_links";
+import DisplayAssignment from "./modules/diplay_assignment";
 import "./display_projects.css";
 
 function DisplayProjects()
@@ -44,10 +45,15 @@ function DisplayProjects()
             <p className="projectCard-info">{project.description}</p>
             {expand[project.name]
             && (
-            <DisplayStack
-              Technologies={project.Technologies}
-              Additional={project.Additional}
-            />
+              <div>
+                <DisplayStack
+                  Technologies={project.Technologies}
+                  Additional={project.Additional}
+                />
+                <DisplayAssignment
+                  project={project}
+                />
+              </div>
             )}
             <div
               style={{ transform: expand[project.name] ? "rotateX(180deg)" : "none" }}
