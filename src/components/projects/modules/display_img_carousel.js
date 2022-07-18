@@ -29,41 +29,33 @@ function DisplayImgCarousel(props)
     setCurrentIndex(newIndex);
   };
   const slideContainerStyle = {
-    // position: "relative",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
   };
   const slideImgStyle = {
-    // margin: "0 auto",
     width: "85%",
     borderRadius: "10px",
   };
   const slideLeftArrowStyle = {
-    // position: "absolute",
-    // top: "50%",
-    // transform: "translate(0, -50%)",
     display: "flex",
     alignItems: "center",
     fontSize: "2.5rem",
     cursor: "pointer",
     color: "rgb(226, 187, 125)",
-    // right: "20px",
     justifyContent: "center",
     margin: "0 10px",
+    border: "none",
   };
   const slideRightArrowStyle = {
-    // position: "absolute",
-    // top: "50%",
-    // transform: "translate(0, -50%)",
     display: "flex",
     alignItems: "center",
     fontSize: "2.5rem",
     cursor: "pointer",
     color: "rgb(226, 187, 125)",
-    // right: "20px",
     justifyContent: "center",
     margin: "0 10px",
+    border: "none",
   };
 
   return (
@@ -71,7 +63,8 @@ function DisplayImgCarousel(props)
       className="projectCard-slide-container"
       style={slideContainerStyle}
     >
-      <div
+      <button
+        type="button"
         className="projectCard-slide-arrow"
         onClick={previous}
         style={slideLeftArrowStyle}
@@ -79,13 +72,14 @@ function DisplayImgCarousel(props)
         <FontAwesomeIcon
           icon={faAngleLeft}
         />
-      </div>
+      </button>
       <img
         className="projectCard-slide-img"
         src={IMAGES[props.project.name][currentIndex]}
         style={slideImgStyle}
       />
-      <div
+      <button
+        type="button"
         className="projectCard-slide-arrow"
         onClick={next}
         style={slideRightArrowStyle}
@@ -93,7 +87,7 @@ function DisplayImgCarousel(props)
         <FontAwesomeIcon
           icon={faAngleRight}
         />
-      </div>
+      </button>
     </div>
   );
 }

@@ -1,8 +1,10 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable array-callback-return */
 /* eslint-disable no-unused-vars */
 /* eslint-disable max-len */
+import uniqid from "uniqid";
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
@@ -34,7 +36,10 @@ function DisplayProjects()
     <div className="projectCard-container">
       {
         DATA.Projects.map((project) => (
-          <div className={`projectCard${expand[project.name] ? " expand" : ""}`}>
+          <div
+            className={`projectCard${expand[project.name] ? " expand" : ""}`}
+            key={uniqid()}
+          >
             <DisplayImgCarousel
               project={project}
             />

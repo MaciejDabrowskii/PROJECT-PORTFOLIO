@@ -13,14 +13,18 @@
 .projectCard-container {
   padding: 3rem;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 4rem;
   grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  background-image: linear-gradient(to bottom,  white, var(--orange));
+  width: 100%;
 }
 
 .projectCard {
-  padding: 25px 30px 10px 30px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 45px 40px 20px 40px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   height: fit-content;
+  background-color: white;
+  border: 1px solid var(--dark-blue);
 }
 
 .projectCard-slide-container > * {
@@ -34,7 +38,7 @@
 }
 
 .projectCard-header {
-  margin: 1rem 0;
+  margin: 2rem 0 1rem 0;
   display: flex;
   justify-content: space-between;
   font-weight: 100;
@@ -42,6 +46,7 @@
 
 .projectCard-title {
   font-family: "Secular One", sans-serif;
+  color: var(--dark-blue);
 }
 
 .projectCard-links-container {
@@ -51,6 +56,7 @@
   align-items: center;
   margin-right: 0.4rem;
   font-size: 1.5rem;
+  color: var(--dark-blue);
 }
 
 .projectCard-link-preview,
@@ -72,6 +78,7 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   font-family: "Secular One", sans-serif;
+  color: var(--dark-blue);
 }
 
 @keyframes fadein {
@@ -84,13 +91,26 @@
   }
 }
 
-.projectCard-stack-technologies,
+.projectCard-stack-technologies{
+border-top: 2px solid var(--orange);
+padding: 30px 10px 0 10px;
+margin: 2rem 0;
+display: flex;
+gap: 0.6rem;
+align-items: center;
+}
+
 .projectCard-stack-additional,
 .projectCard-assignment-container {
-  margin: 1rem 0;
+  margin: 2rem 0;
   display: flex;
   gap: 0.6rem;
   align-items: center;
+  padding: 0 10px;
+}
+.projectCard-assignment-container {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--orange);
 }
 
 .projectCard-stack-technologies-icon {
@@ -103,7 +123,7 @@
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  transition: transform 350ms ease;
+  transition: transform 550ms ease;
   color: var(--orange);
 }
 

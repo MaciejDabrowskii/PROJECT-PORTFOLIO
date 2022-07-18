@@ -3,7 +3,7 @@
 const DATA = {
   Personal: {
     name: "Maciej Dąbrowski",
-    phone: "518228847",
+    phone: "+48 518 228 847",
     email: "dabrowski.mac.1@gmail.com",
     gitURL: "https://github.com/MaciejDabrowskii",
     linkedinURL: "https://pl.linkedin.com/",
@@ -27,7 +27,7 @@ const DATA = {
       previewURL: "https://maciejdabrowskii.github.io/PROJECT-MEMORY-CARD/",
       assignmentURL: "https://www.theodinproject.com/lessons/node-path-javascript-memory-card",
       Technologies: ["HTML", "CSS", "JavaScript"],
-      Additional: ["React", "Jest", "ESLint", "Git", "GitHub"],
+      Additional: ["React", "ESLint", "Git", "GitHub"],
     },
     {
       name: "CV App",
