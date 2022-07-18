@@ -13,6 +13,7 @@
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
 }
+
 .projectCard {
   padding: 25px 30px 10px 30px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -28,6 +29,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .projectCard-title {
 }
 
@@ -76,6 +78,7 @@
   height: 2rem;
   width: auto;
 }
+
 .projectCard-expand-container {
   font-size: 2rem;
   transition: transform 350ms ease;
@@ -89,6 +92,7 @@
   align-items: center;
   gap: 0.6rem;
 }
+
 .projectCard-assignment-logo {
   background-color: black;
   height: 2rem;
