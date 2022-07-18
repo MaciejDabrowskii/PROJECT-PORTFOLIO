@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable max-len */
 /* eslint-disable no-unused-vars */
@@ -27,30 +29,41 @@ function DisplayImgCarousel(props)
     setCurrentIndex(newIndex);
   };
   const slideContainerStyle = {
-    position: "relative",
+    // position: "relative",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
   };
   const slideImgStyle = {
-    margin: "0 auto",
-    width: "100%",
+    // margin: "0 auto",
+    width: "85%",
     borderRadius: "10px",
   };
   const slideLeftArrowStyle = {
-    position: "absolute",
-    top: "50%",
-    transform: "translate(0, -50%)",
+    // position: "absolute",
+    // top: "50%",
+    // transform: "translate(0, -50%)",
+    display: "flex",
+    alignItems: "center",
+    fontSize: "2.5rem",
     cursor: "pointer",
-    color: "red",
-    left: "20px",
-    fontSize: "2rem",
+    color: "rgb(226, 187, 125)",
+    // right: "20px",
+    justifyContent: "center",
+    margin: "0 10px",
   };
   const slideRightArrowStyle = {
-    position: "absolute",
-    top: "50%",
-    transform: "translate(0, -50%)",
+    // position: "absolute",
+    // top: "50%",
+    // transform: "translate(0, -50%)",
+    display: "flex",
+    alignItems: "center",
+    fontSize: "2.5rem",
     cursor: "pointer",
-    color: "red",
-    right: "20px",
-    fontSize: "2rem",
+    color: "rgb(226, 187, 125)",
+    // right: "20px",
+    justifyContent: "center",
+    margin: "0 10px",
   };
 
   return (
@@ -58,21 +71,29 @@ function DisplayImgCarousel(props)
       className="projectCard-slide-container"
       style={slideContainerStyle}
     >
-      <FontAwesomeIcon
-        icon={faAngleLeft}
-        style={slideLeftArrowStyle}
+      <div
+        className="projectCard-slide-arrow"
         onClick={previous}
-      />
-      <FontAwesomeIcon
-        icon={faAngleRight}
-        style={slideRightArrowStyle}
-        onClick={next}
-      />
+        style={slideLeftArrowStyle}
+      >
+        <FontAwesomeIcon
+          icon={faAngleLeft}
+        />
+      </div>
       <img
         className="projectCard-slide-img"
         src={IMAGES[props.project.name][currentIndex]}
         style={slideImgStyle}
       />
+      <div
+        className="projectCard-slide-arrow"
+        onClick={next}
+        style={slideRightArrowStyle}
+      >
+        <FontAwesomeIcon
+          icon={faAngleRight}
+        />
+      </div>
     </div>
   );
 }
