@@ -119,6 +119,11 @@ align-items: center;
   color: var(--dark-blue);
 }
 
+.projectCard-assignment-logo {
+  height: 3rem;
+  cursor: pointer;
+}
+
 .projectCard-assignment-logo:hover {
   transform: rotateY(360deg);
   transition: transform 400ms ease;
@@ -149,8 +154,3 @@ align-items: center;
   gap: 0.6rem;
 }
 
-.projectCard-assignment-logo {
-  background-color: black;
-  height: 2rem;
-  cursor: pointer;
-}
