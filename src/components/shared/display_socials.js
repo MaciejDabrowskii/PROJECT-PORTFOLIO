@@ -3,7 +3,11 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub, faSoundcloud } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faSoundcloud,
+} from "@fortawesome/free-brands-svg-icons";
 import DATA from "../../data/data";
 import openURL from "../../utils/open_url";
 

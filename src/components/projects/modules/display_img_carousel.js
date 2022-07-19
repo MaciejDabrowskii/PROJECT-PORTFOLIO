@@ -48,7 +48,8 @@ function DisplayImgCarousel(props)
   };
   const slideImgStyle = {
     width: "90%",
-    borderRadius: "10px",
+    border: "6px solid rgb(24, 47, 80)",
+    borderRadius: "12px",
     height: "auto",
   };
   const slideLeftArrowStyle = {

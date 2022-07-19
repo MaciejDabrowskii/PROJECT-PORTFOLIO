@@ -10,23 +10,22 @@
   --dark-navy-blue: rgb(24, 47, 80);
 }
 
-.projects{
-  padding: 3rem;
+.projects {
+  padding: 1rem 3rem 3rem 3rem;
   background-color: var(--orange);
 }
 
-.project-section-title{
+.projects-title {
   font-size: 6rem;
   font-family: "Secular One", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--dark-navy-blue);
   border-bottom: 10px dotted var(--dark-navy-blue);
-
 }
 
 .projectCard-container {
-  padding: 3rem;
+  padding: 5rem 5rem 3rem 5rem;
   display: grid;
   grid-gap: 4rem;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
@@ -35,46 +34,53 @@
 }
 
 .projectCard {
-  padding: 45px 40px 20px 40px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 3rem 2.3rem 2rem 2.3rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
   height: fit-content;
   background-color: white;
-  border: 3px solid var(--dark-navy-blue);
+  border: 6px solid var(--dark-navy-blue);
+  border-radius: 20px;
 }
 
-.projectCard-slide-indicator-container{
-display: flex;
-gap: 1rem;
-margin-top: 2rem;
+.projectCard-slide-overlay-container {
+  display: flex;
 }
 
-.projectCard-slide-indicator{
-width: 1.2rem;
-height: 1.2rem;
-border: 4px solid var(--dark-navy-blue);
-border-radius: 50%;
-background-color: var(--orange);
+.projectCard-slide-indicator-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.projectCard-slide-indicator {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 4px solid var(--dark-navy-blue);
+  border-radius: 50%;
+  background-color: var(--orange);
+  transition: background-color 300ms ease-in;
 }
 
 .projectCard-slide-indicator:hover {
   cursor: pointer;
 }
 
-.projectCard-slide-indicator.active{
-background-color: var(--dark-navy-blue);
+.projectCard-slide-indicator.active {
+  background-color: var(--dark-navy-blue);
 }
 
-.projectCard-slide-arrow-icon{
+.projectCard-slide-arrow-icon {
   color: var(--dark-navy-blue);
 }
 
-.projectCard-slide-arrow-icon:active{
+.projectCard-slide-arrow-icon:active {
   color: var(--orange);
-  transition: color 200ms ease;
+  transition: color 100ms ease;
 }
 
 .projectCard-info {
-  padding: 0 10px;
+  padding: 0 .5rem;
   margin-bottom: 3rem;
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
@@ -119,34 +125,33 @@ background-color: var(--dark-navy-blue);
   transition: color 200ms ease-in;
 }
 
-.container{
+.container {
   height: 0;
   visibility: hidden;
   opacity: 0;
-  max-height: 800px;
-  transition:  opacity 300ms linear, height 300ms ease;
+  transition: opacity 300ms linear, height 300ms ease;
 }
 
-.container.expand{
+.container.expand {
   height: 18rem;
   visibility: visible;
   opacity: 1;
 }
 
-.projectCard-stack-container{
+.projectCard-stack-container {
   font-family: "Secular One", sans-serif;
   color: var(--dark-navy-blue);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.projectCard-stack-technologies{
-border-top: 8px dotted var(--orange);
-padding: 30px 10px 0 10px;
-margin: 2rem 0;
-display: flex;
-gap: 0.6rem;
-align-items: center;
+.projectCard-stack-technologies {
+  border-top: 8px dotted var(--dark-navy-blue);
+  padding: 3rem 1rem 0 1rem;
+  margin: 2rem 0;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
 }
 
 .projectCard-stack-additional,
@@ -155,11 +160,11 @@ align-items: center;
   display: flex;
   gap: 0.6rem;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 1rem;
 }
 .projectCard-assignment-container {
-  padding-bottom: 1rem;
-  border-bottom: 8px dotted var(--orange);
+  padding-bottom: 2rem;
+  border-bottom: 8px dotted var(--dark-navy-blue);
   font-family: "Secular One", sans-serif;
   color: var(--dark-navy-blue);
   -webkit-font-smoothing: antialiased;
@@ -185,9 +190,11 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
   transition: transform 550ms ease;
-  color: var(--dark-navy-blue);
+}
+
+.projectCard-expand-btn {
+  border: none;
 }
 
 .projectCard-expand-container > * {
@@ -195,9 +202,18 @@ align-items: center;
   cursor: pointer;
 }
 
+.projectCard-expand-icon {
+  font-size: 3rem;
+  color: var(--dark-navy-blue);
+  transition: color 100ms ease-in;
+}
+
+.projectCard-expand-icon:active {
+  color: var(--orange);
+}
+
 .projectCard-assignment-container {
   display: flex;
   align-items: center;
   gap: 0.6rem;
 }
-

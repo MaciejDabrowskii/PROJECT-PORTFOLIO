@@ -32,49 +32,49 @@ function DisplayProjects()
     setExpand({ ...expand, [project.name]: !expand[project.name] });
   };
 
-  const style = {
-    display: "none",
-    opacity: 1,
-  };
-
   return (
     <section className="projects">
-      <h1 className="project-section-title">My Work</h1>
+      <h1 className="projects-title">My Work</h1>
       <div className="projectCard-container">
-        {
-        DATA.Projects.map((project) => (
+        {DATA.Projects.map((project) => (
           <div
             className={`projectCard${expand[project.name] ? " expand" : ""}`}
             key={project.name}
           >
-            <DisplayImgCarousel
-              project={project}
-            />
+            <DisplayImgCarousel project={project} />
             <div className="projectCard-header">
               <h2 className="projectCard-title">{project.name}</h2>
               <DisplayLinks project={project} />
             </div>
             <p className="projectCard-info">{project.description}</p>
-            <div className={`container${expand[project.name] ? " expand" : ""}`}>
+            <div
+              className={`container${expand[project.name] ? " expand" : ""}`}
+            >
               <DisplayStack
                 Technologies={project.Technologies}
                 Additional={project.Additional}
               />
-              <DisplayAssignment
-                project={project}
-              />
+              <DisplayAssignment project={project} />
             </div>
-
             <div
-              style={{ transform: expand[project.name] ? "rotateX(180deg)" : "none" }}
               className="projectCard-expand-container"
-              onClick={() => expandCard(project)}
+              style={{
+                transform: expand[project.name] ? "rotateX(180deg)" : "none",
+              }}
             >
-              <FontAwesomeIcon icon={faAngleDown} />
+              <button
+                type="button"
+                className="projectCard-expand-btn"
+                onClick={() => expandCard(project)}
+              >
+                <FontAwesomeIcon
+                  icon={faAngleDown}
+                  className="projectCard-expand-icon"
+                />
+              </button>
             </div>
           </div>
-        ))
-      }
+        ))}
       </div>
     </section>
   );

@@ -20,7 +20,6 @@ function DisplayLinks(props)
           className="projectCard-link-github-icon"
           icon={faGithub}
         />
-
       </div>
       <div
         className="projectCard-link-preview"
@@ -31,7 +30,6 @@ function DisplayLinks(props)
           className="projectCard-link-preview-icon"
           icon={faArrowUpRightFromSquare}
         />
-
       </div>
     </div>
   );
