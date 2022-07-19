@@ -38,8 +38,10 @@ function DisplayProjects()
   };
 
   return (
-    <div className="projectCard-container">
-      {
+    <section className="projects">
+      <h1 className="project-section-title">My Work</h1>
+      <div className="projectCard-container">
+        {
         DATA.Projects.map((project) => (
           <div
             className={`projectCard${expand[project.name] ? " expand" : ""}`}
@@ -73,7 +75,8 @@ function DisplayProjects()
           </div>
         ))
       }
-    </div>
+      </div>
+    </section>
   );
 }
 

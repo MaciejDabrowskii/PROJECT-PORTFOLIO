@@ -10,14 +10,7 @@
   --blue: rgb(89, 173, 227);
   --dark-blue: rgb(26, 97, 148);
   --yellow: rgb(250, 235, 179);
-  --orange: rgb(226, 187, 125);
+  --orange: rgb(230, 177, 92);
   --brown: rgb(170, 130, 105);
   --dark-navy-blue: rgb(14, 28, 47);
-}
-
-.project-section-title{
-  margin-left: 3rem;
-  font-size: 3rem;
-  font-family: "Secular One", sans-serif;
-  color: var(--dark-blue);
 }

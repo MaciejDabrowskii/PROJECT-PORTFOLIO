@@ -28,7 +28,20 @@ function DisplayImgCarousel(props)
     const newIndex = isFirst ? IMAGES[props.project.name].length - 1 : currentIndex - 1;
     setCurrentIndex(newIndex);
   };
+
+  const onClick = (index) =>
+  {
+    setCurrentIndex(index);
+  };
+
   const slideContainerStyle = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+  };
+
+  const slideImgContainerStyle = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -64,31 +77,49 @@ function DisplayImgCarousel(props)
       className="projectCard-slide-container"
       style={slideContainerStyle}
     >
-      <button
-        type="button"
-        className="projectCard-slide-arrow"
-        onClick={previous}
-        style={slideLeftArrowStyle}
+      <div
+        className="projectCard-slide-img-container"
+        style={slideImgContainerStyle}
       >
-        <FontAwesomeIcon
-          icon={faAngleLeft}
+        <button
+          type="button"
+          className="projectCard-slide-arrow-btn"
+          onClick={previous}
+          style={slideLeftArrowStyle}
+        >
+          <FontAwesomeIcon
+            className="projectCard-slide-arrow-icon"
+            icon={faAngleLeft}
+          />
+        </button>
+        <img
+          className="projectCard-slide-img"
+          src={IMAGES[props.project.name][currentIndex]}
+          style={slideImgStyle}
         />
-      </button>
-      <img
-        className="projectCard-slide-img"
-        src={IMAGES[props.project.name][currentIndex]}
-        style={slideImgStyle}
-      />
-      <button
-        type="button"
-        className="projectCard-slide-arrow"
-        onClick={next}
-        style={slideRightArrowStyle}
-      >
-        <FontAwesomeIcon
-          icon={faAngleRight}
-        />
-      </button>
+        <button
+          type="button"
+          className="projectCard-slide-arrow-btn"
+          onClick={next}
+          style={slideRightArrowStyle}
+        >
+          <FontAwesomeIcon
+            className="projectCard-slide-arrow-icon"
+            icon={faAngleRight}
+          />
+        </button>
+      </div>
+      <div className="projectCard-slide-indicator-container">
+        {
+        IMAGES[props.project.name].map((image, index) => (
+          <div
+            className={`projectCard-slide-indicator${index === currentIndex ? " active" : ""}`}
+            key={image}
+            onClick={() => onClick(index)}
+          />
+        ))
+      }
+      </div>
     </div>
   );
 }

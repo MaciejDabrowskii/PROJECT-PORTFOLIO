@@ -8,7 +8,6 @@ function App()
   return (
     <div>
       <DisplayHeader />
-      <h1 className="project-section-title">My Work</h1>
       <DisplayProjects />
     </div>
   );
