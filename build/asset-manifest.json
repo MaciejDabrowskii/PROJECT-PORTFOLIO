@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.00ddd415.css",
+    "main.js": "/static/js/main.7423686c.js",
+    "static/media/shopping_cart_1.jpg": "/static/media/shopping_cart_1.186caab8570cc0362591.jpg",
+    "static/media/shopping_cart_3.jpg": "/static/media/shopping_cart_3.73bd10e0171a5b29b918.jpg",
+    "static/media/shopping_cart_2.jpg": "/static/media/shopping_cart_2.9bcfea4dbc485161b80a.jpg",
+    "static/media/memory_card_2.jpg": "/static/media/memory_card_2.909accc9de084393d1ba.jpg",
+    "static/media/memory_card_1.jpg": "/static/media/memory_card_1.a46f31f848e8ff2a495d.jpg",
+    "static/media/memory_card_3.jpg": "/static/media/memory_card_3.0579f29420e70e344481.jpg",
+    "static/media/battleship_3.jpg": "/static/media/battleship_3.bc1c4fb126cc1d8fe24f.jpg",
+    "static/media/battleship_1.jpg": "/static/media/battleship_1.5d8ef14d2ce7e7b5b380.jpg",
+    "static/media/battleship_2.jpg": "/static/media/battleship_2.28ac0e1dc61f7c91012a.jpg",
+    "static/media/cv_app_1.jpg": "/static/media/cv_app_1.eb9318c8267edfec1cc0.jpg",
+    "static/media/weather_app_3.jpg": "/static/media/weather_app_3.a8b727c28f2f3647f765.jpg",
+    "static/media/weather_app_2.jpg": "/static/media/weather_app_2.66107d274000d75f1889.jpg",
+    "static/media/weather_app_1.jpg": "/static/media/weather_app_1.74a5489c2dda1c15f458.jpg",
+    "static/media/cv_app_3.jpg": "/static/media/cv_app_3.c900a28d7fed5b44c58f.jpg",
+    "static/media/cv_app_2.jpg": "/static/media/cv_app_2.58c9cd366b477b089317.jpg",
+    "static/media/personal_cropped.jpg": "/static/media/personal_cropped.f055412896875607b5ea.jpg",
+    "index.html": "/index.html",
+    "main.00ddd415.css.map": "/static/css/main.00ddd415.css.map",
+    "main.7423686c.js.map": "/static/js/main.7423686c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00ddd415.css",
+    "static/js/main.7423686c.js"
+  ]
+}
