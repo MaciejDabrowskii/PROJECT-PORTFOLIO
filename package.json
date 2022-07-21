@@ -55,5 +55,6 @@
     "gh-pages": "^4.0.0",
     "prettier": "2.7.1",
     "uniqueid": "^1.0.0"
-  }
+  },
+  "homepage": "http://MaciejDabrowskii.github.io/PROJECT-PORTFOLIO"
 }
