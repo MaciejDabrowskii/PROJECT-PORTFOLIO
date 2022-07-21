@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/destructuring-assignment */
@@ -11,10 +12,10 @@ function DisplayAssignment(props)
   return (
     <div
       className="projectCard-assignment-container"
-      onClick={() => openURL(props.project.assignmentURL)}
     >
       Assignment:
       <img
+        onClick={() => openURL(props.project.assignmentURL)}
         src={ICONS.Odin}
         className="projectCard-assignment-logo"
         alt="ODIN logo"
