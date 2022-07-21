@@ -15,6 +15,7 @@ a:hover{
 }
 
 .contact-info-container{
+    font-family: "Roboto Mono", monospace;
     background-color: var(--dark-navy-blue);
     display: flex;
     align-items: center;
@@ -29,13 +30,15 @@ a:hover{
 }
 
 .contact-info-title{
+    font-family: "Secular One", sans-serif;
     font-size: 4rem;
     margin-bottom: 2rem;
-    border-bottom: 6px solid var(--tomato);
+    border-bottom: 10px dotted var(--tomato);
+    letter-spacing: 3px;
 }
 
 .contact-info-annotation {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: .5rem 0 1rem 0
 }
 
@@ -51,12 +54,13 @@ a:hover{
     align-items: center;
     gap: 1rem;
     font-size: 1.2rem;
-    margin: .7rem 0;
+    margin: 1rem 0;
 }
 
 .contact-info-phone-icon,
 .contact-info-email-icon {
     font-size: 1.5rem;
+    color: var(--tomato);
 }
 
 .contact-info-phone-link{}
@@ -65,10 +69,11 @@ a:hover{
 .footer-img{
     border-radius: 50%;
     border: 6px solid var(--tomato);
+    height: 27rem;
 }
 
 .socials-container-footer{
-    padding: 2rem 0;
+    padding: 2rem 0 5rem 0;
     background-color: var(--dark-navy-blue);
     color: white;
     display: flex;

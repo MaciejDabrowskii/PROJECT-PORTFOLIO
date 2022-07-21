@@ -7,7 +7,7 @@
 }
 
 .projects-title {
-  font-size: 6rem;
+  font-size: 4rem;
   font-family: "Secular One", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,12 +19,13 @@
 .projectCard-container {
   padding: 5rem 5rem 5rem 5rem;
   background-color: var(--tomato);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   display: grid;
   grid-gap: 4rem;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   width: 100%;
   height: max-content;
-  /* border-bottom: 14px dotted var(--dark-navy-blue); */
 }
 
 .projectCard {
@@ -100,6 +101,7 @@
 
 .header-about {
   white-space: pre-line;
+  border-bottom: 8px dotted var(--tomato);
 }
 
 .projectCard-links-container {
@@ -108,7 +110,7 @@
   gap: 0.6rem;
   align-items: center;
   margin-right: 0.4rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--dark-navy-blue);
 }
 

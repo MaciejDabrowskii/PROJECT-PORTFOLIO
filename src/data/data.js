@@ -9,7 +9,7 @@ const DATA = {
     gitURL: "https://github.com/MaciejDabrowskii",
     linkedinURL: "https://pl.linkedin.com/",
     soundcloudURL: "https://soundcloud.com/maciej-d-browski-1",
-    about: "Hello! I am aspiring developer from Poland, and for the past months, I learned Software development with The Odin Project (full stack open source curriculum).\n\nMy goal is to become a full-fledged  Developer. I looking for opportunities to acquire real-world experience to test and improve my newly acquired skill set.\n Also, to learn and grow as a developer.\n\nI am currently learning TypeScript and deepening my knowledge of ReactJS.",
+    about: "Hello! I am an aspiring developer from Poland, and for the past months, I have learned Software development with The Odin Project (full stack open source curriculum).\n\nMy goal is to become a full-fledged  Developer. I looking for opportunities to acquire real-world experience to test and improve my newly acquired skill set.\n Also, to learn and grow as a developer.\n\nI am currently learning TypeScript and deepening my knowledge of ReactJS.",
   },
 
   Projects: [
@@ -69,7 +69,7 @@ const DATA = {
       Additional: ["webpack", "ESLint", "Git", "GitHub"],
     },
     {
-      name: "Strona Agaty",
+      name: "Placeholder",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae feugiat turpis, vitae interdum ligula. Nunc vel nisl lacus.",
       gitURL: "https://www.google.com",
