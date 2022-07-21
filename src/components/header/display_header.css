@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Secular+One&display=swap");
 
-:root {
-  --blue: rgb(89, 173, 227);
-  --dark-blue: rgb(26, 97, 148);
-  --yellow: rgb(250, 235, 179);
-  --orange: rgb(230, 177, 92);
-  --brown: rgb(170, 130, 105);
-  --dark-navy-blue: rgb(24, 47, 80);
-}
 
 .header-container {
   height: 670px;
@@ -54,14 +46,11 @@
   color: var(--dark-navy-blue);
   font-size: 4rem;
   letter-spacing: 3px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .header-info {
   display: flex;
   flex-direction: column;
-  /* gap: 1rem; */
   background-color: white;
   padding: 2rem 1rem 1rem 10rem;
   position: absolute;
@@ -81,7 +70,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.socials-container {
+.socials-container-header {
   display: flex;
   font-size: 2rem;
   gap: 1rem;
@@ -92,10 +81,10 @@
   color: var(--dark-navy-blue);
 }
 
-.socials-linkedIn:hover,
-.socials-github:hover,
-.socials-soundcloud:hover {
-  color: var(--orange);
+.socials-linkedIn-header:hover,
+.socials-github-header:hover,
+.socials-soundcloud-header:hover {
+  color: var(--tomato);
   transition: color 200ms ease-in;
   cursor: pointer;
 }

@@ -9,24 +9,20 @@ import DisplaySocials from "../shared/display_socials";
 function DisplayHeader()
 {
   return (
-    <div className="header-container">
-      <div className="header-info-container">
-        <img className="header-img" src={personalImg} alt="Maciej Dąbrowski" />
-        <div className="header-info">
-          <h1 className="header-title">{DATA.Personal.name}</h1>
-          <h3 className="header-about">
-            *Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-            velit soluta quis ratione et repellendus sapiente sint mollitia
-            porro molestiae veritatis impedit facere id animi consequatur, fuga
-            voluptatem sequi quas. ipsum dolor, sit amet consectetur adipisicing
-            elit. Provident error dignissimos doloremque nisi nesciunt
-            praesentium maiores ipsam eos culpa fugiat illum, sit, est accusamus
-            odit dolore iusto, perspiciatis at quo?
-          </h3>
-          <DisplaySocials />
+    <section className="header">
+      <div className="header-container">
+        <div className="header-info-container">
+          <img className="header-img" src={personalImg} alt="Maciej Dąbrowski" />
+          <div className="header-info">
+            <h1 className="header-title">{DATA.Personal.name}</h1>
+            <h3 className="header-about">
+              {DATA.Personal.about}
+            </h3>
+            <DisplaySocials element="header" />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 export default DisplayHeader;

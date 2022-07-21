@@ -4,7 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
 }
+
 
 :root {
   --blue: rgb(89, 173, 227);
@@ -12,5 +15,6 @@
   --yellow: rgb(250, 235, 179);
   --orange: rgb(230, 177, 92);
   --brown: rgb(170, 130, 105);
-  --dark-navy-blue: rgb(14, 28, 47);
+  --dark-navy-blue: rgb(24, 47, 80);
+  --tomato: rgb(250, 84, 54);
 }
