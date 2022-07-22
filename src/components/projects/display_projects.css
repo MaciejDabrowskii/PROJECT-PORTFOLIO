@@ -52,6 +52,8 @@
   .projectCard-slide-img-container > .projectCard-slide-img {
     width: 100%;
     border: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
 
   .projectCard > .projectCard-header {
@@ -182,11 +184,6 @@
   font-size: 2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.header-about {
-  white-space: pre-line;
-  border-bottom: 8px dotted var(--tomato);
 }
 
 .projectCard-links-container {
