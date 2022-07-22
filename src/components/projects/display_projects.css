@@ -28,6 +28,7 @@
 @media (max-width: 539px) {
   .projects > .projects-title {
     font-size: 3rem;
+    margin-bottom: 0;
   }
 
   .projects > .projectCard-container {
@@ -66,7 +67,7 @@
   }
 
   .projectCard > .projectCard-info {
-    padding: 1rem 2.5rem 0 2.5rem;
+    padding: 3rem 2.5rem 0 2.5rem;
   }
 
   .container > .projectCard-assignment-container {
@@ -75,6 +76,10 @@
 
   .projectCard-assignment-container > .projectCard-assignment-logo {
     height: 4rem;
+  }
+
+  .projectCard-stack-container > .projectCard-stack-technologies-container {
+    margin-top: 0;
   }
 
   .projectCard-stack-container > .projectCard-stack-technologies-container,
