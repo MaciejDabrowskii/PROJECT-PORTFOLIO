@@ -12,12 +12,14 @@ function DisplayHeader()
     <section className="header">
       <div className="header-container">
         <div className="header-info-container">
-          <img className="header-img" src={personalImg} alt="Maciej Dąbrowski" />
+          <img
+            className="header-img"
+            src={personalImg}
+            alt="Maciej Dąbrowski"
+          />
           <div className="header-info">
             <h1 className="header-title">{DATA.Personal.name}</h1>
-            <h3 className="header-about">
-              {DATA.Personal.about}
-            </h3>
+            <h3 className="header-about">{DATA.Personal.about}</h3>
             <DisplaySocials element="header" />
           </div>
         </div>

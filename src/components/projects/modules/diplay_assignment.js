@@ -10,9 +10,7 @@ import openURL from "../../../utils/open_url";
 function DisplayAssignment(props)
 {
   return (
-    <div
-      className="projectCard-assignment-container"
-    >
+    <div className="projectCard-assignment-container">
       <p>Assignment:</p>
       <img
         onClick={() => openURL(props.project.assignmentURL)}

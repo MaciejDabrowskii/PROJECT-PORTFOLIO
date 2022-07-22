@@ -1,39 +1,39 @@
 .projectCard-slide-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .projectCard-slide-img-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-.projectCard-slide-img{
-    width: 90%;
-    border: 3px solid rgb(24 47 80);
-    border-radius: 12px;
-    height: auto;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projectCard-slide-img {
+  width: 90%;
+  border: 3px solid rgb(24 47 80);
+  border-radius: 12px;
+  height: auto;
+}
 
 .projectCard-slide-arrow-btn-left {
-    display: flex;
-    align-items: center;
-    font-size: 2.5rem;
-    cursor: pointer;
-    color: rgb(226 187 125);
-    justify-content: center;
-    margin: 0 10px;
-    border: none;
-  }
-.projectCard-slide-arrow-btn-right{
-    display: flex;
-    align-items: center;
-    font-size: 2.5rem;
-    cursor: pointer;
-    color: rgb(226 187 125);
-    justify-content: center;
-    margin: 0 10px;
-    border: none;
-  }
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: rgb(226 187 125);
+  justify-content: center;
+  margin: 0 10px;
+  border: none;
+}
+.projectCard-slide-arrow-btn-right {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: rgb(226 187 125);
+  justify-content: center;
+  margin: 0 10px;
+  border: none;
+}

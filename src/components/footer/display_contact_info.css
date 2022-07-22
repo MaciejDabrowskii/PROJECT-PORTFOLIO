@@ -2,124 +2,122 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Secular+One&display=swap");
 
 @media (max-width: 901px) {
-    .contact-info-container{
-        flex-direction: column;
-    }
-
+  .contact-info-container {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 469px) {
-    .contact-info-container{
-        flex-direction: column;
-    }
-    .contact-info > .contact-info-title{
-        font-size: 2rem;
-    }
+  .contact-info-container {
+    flex-direction: column;
+  }
+  .contact-info > .contact-info-title {
+    font-size: 2rem;
+  }
 
-    .contact-info > 
-    .contact-info-annotation,
-    .contact-info > .contact-info-address,
-    .contact-info > .contact-info-phone-container,
-    .contact-info > .contact-info-email-container
-    {
-        font-size: 1rem;
-    }
+  .contact-info > .contact-info-annotation,
+  .contact-info > .contact-info-address,
+  .contact-info > .contact-info-phone-container,
+  .contact-info > .contact-info-email-container {
+    font-size: 1rem;
+  }
 
-    div > .footer-img {
-        border: none;
-        border-radius: 0;
-        width: 100%;
-        height: auto;
-        
-    }
+  div > .footer-img {
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+  }
 
-    .footer > .socials-container-footer {
-        font-size: 2rem;
-    }
+  .footer > .socials-container-footer {
+    font-size: 2rem;
+  }
 }
 
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-a:hover{
-    text-decoration: underline;
-    text-decoration-color: var(--tomato);
-    text-decoration-thickness: .2rem ;
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--tomato);
+  text-decoration-thickness: 0.2rem;
 }
 
-.contact-info-container{
-    font-family: "Roboto Mono", monospace;
-    background-color: var(--dark-navy-blue);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 4rem;
-    padding: 0 3rem;
+.contact-info-container {
+  font-family: "Roboto Mono", monospace;
+  background-color: var(--dark-navy-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  padding: 0 3rem;
 }
 
-.contact-info{
-    margin: 4rem 0 2rem 0;
-    color: white;
+.contact-info {
+  margin: 4rem 0 2rem 0;
+  color: white;
 }
 
-.contact-info-title{
-    font-family: "Secular One", sans-serif;
-    font-size: 4rem;
-    margin-bottom: 2rem;
-    border-bottom: 10px dotted var(--tomato);
-    letter-spacing: 3px;
+.contact-info-title {
+  font-family: "Secular One", sans-serif;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  border-bottom: 10px dotted var(--tomato);
+  letter-spacing: 3px;
 }
 
 .contact-info-annotation {
-    font-size: 1.3rem;
-    margin: .5rem 0 1rem 0;
-    padding-right: 1.5rem
+  font-size: 1.3rem;
+  margin: 0.5rem 0 1rem 0;
+  padding-right: 1.5rem;
 }
 
-.contact-info-address{
-    font-size: 1.2rem;
-    white-space: pre-line;
-    line-height: 1.5;
+.contact-info-address {
+  font-size: 1.2rem;
+  white-space: pre-line;
+  line-height: 1.5;
 }
 
 .contact-info-phone-container,
 .contact-info-email-container {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 1.2rem;
-    margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  margin: 1rem 0;
 }
 
 .contact-info-phone-icon,
 .contact-info-email-icon {
-    font-size: 1.5rem;
-    color: var(--tomato);
+  font-size: 1.5rem;
+  color: var(--tomato);
 }
 
-.contact-info-phone-link{}
-.contact-info-phone-link{}
-
-.footer-img{
-    border-radius: 50%;
-    border: 6px solid var(--tomato);
-    height: 27rem;
+.contact-info-phone-link {
+}
+.contact-info-phone-link {
 }
 
-.socials-container-footer{
-    padding: 2rem 0 5rem 0;
-    background-color: var(--dark-navy-blue);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    font-size: 3rem;
+.footer-img {
+  border-radius: 50%;
+  border: 6px solid var(--tomato);
+  height: 27rem;
+}
+
+.socials-container-footer {
+  padding: 2rem 0 5rem 0;
+  background-color: var(--dark-navy-blue);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 3rem;
 }
 .socials-container-footer > *:hover {
-    cursor: pointer;
-    color: var(--tomato);
-    transition: color 200ms ease-in;
+  cursor: pointer;
+  color: var(--tomato);
+  transition: color 200ms ease-in;
 }

@@ -14,7 +14,10 @@ function DisplayFooter()
       <div className="contact-info-container">
         <div className="contact-info">
           <h1 className="contact-info-title">Contact me</h1>
-          <p className="contact-info-annotation">Please get in touch if you think our work coud be muttually beneficial!</p>
+          <p className="contact-info-annotation">
+            Please get in touch if you think our work coud be muttually
+            beneficial!
+          </p>
           <p className="contact-info-address">{DATA.Personal.address}</p>
           <div className="contact-info-phone-container">
             <FontAwesomeIcon
@@ -26,7 +29,6 @@ function DisplayFooter()
               className="contact-info-phone-link"
             >
               {DATA.Personal.phone}
-
             </a>
           </div>
           <div className="contact-info-email-container">
@@ -39,12 +41,15 @@ function DisplayFooter()
               className="contact-info-phone-link"
             >
               {DATA.Personal.email}
-
             </a>
           </div>
         </div>
         <div>
-          <img className="footer-img" src={personalImg} alt="Maciej Dąbrowski" />
+          <img
+            className="footer-img"
+            src={personalImg}
+            alt="Maciej Dąbrowski"
+          />
         </div>
       </div>
       <DisplaySocials element="footer" />

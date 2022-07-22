@@ -25,7 +25,9 @@ function DisplayImgCarousel(props)
   const previous = () =>
   {
     const isFirst = currentIndex === 0;
-    const newIndex = isFirst ? IMAGES[props.project.name].length - 1 : currentIndex - 1;
+    const newIndex = isFirst
+      ? IMAGES[props.project.name].length - 1
+      : currentIndex - 1;
     setCurrentIndex(newIndex);
   };
 
@@ -35,19 +37,12 @@ function DisplayImgCarousel(props)
   };
 
   return (
-    <div
-      className="projectCard-slide-container"
-
-    >
-      <div
-        className="projectCard-slide-img-container"
-
-      >
+    <div className="projectCard-slide-container">
+      <div className="projectCard-slide-img-container">
         <button
           type="button"
           className="projectCard-slide-arrow-btn projectCard-slide-arrow-btn-left"
           onClick={previous}
-
         >
           <FontAwesomeIcon
             className="projectCard-slide-arrow-icon"
@@ -57,13 +52,11 @@ function DisplayImgCarousel(props)
         <img
           className="projectCard-slide-img"
           src={IMAGES[props.project.name][currentIndex]}
-
         />
         <button
           type="button"
           className="projectCard-slide-arrow-btn projectCard-slide-arrow-btn-right"
           onClick={next}
-
         >
           <FontAwesomeIcon
             className="projectCard-slide-arrow-icon"
@@ -72,15 +65,15 @@ function DisplayImgCarousel(props)
         </button>
       </div>
       <div className="projectCard-slide-indicator-container">
-        {
-        IMAGES[props.project.name].map((image, index) => (
+        {IMAGES[props.project.name].map((image, index) => (
           <div
-            className={`projectCard-slide-indicator${index === currentIndex ? " active" : ""}`}
+            className={`projectCard-slide-indicator${
+              index === currentIndex ? " active" : ""
+            }`}
             key={image}
             onClick={() => onClick(index)}
           />
-        ))
-      }
+        ))}
       </div>
     </div>
   );

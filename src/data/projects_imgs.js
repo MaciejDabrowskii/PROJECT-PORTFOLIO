@@ -27,6 +27,6 @@ const IMAGES = {
   "CV App": [cv_app_1, cv_app_2, cv_app_3],
   "Battleship Game": [battleship_1, battleship_2, battleship_3],
   "Weather App": [weather_app_1, weather_app_2, weather_app_3],
-  "Placeholder": [weather_app_1, weather_app_2, weather_app_3],
+  Placeholder: [weather_app_1, weather_app_2, weather_app_3],
 };
 export default IMAGES;
