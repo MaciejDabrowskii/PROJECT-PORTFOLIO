@@ -13,7 +13,7 @@ function DisplayAssignment(props)
     <div
       className="projectCard-assignment-container"
     >
-      Assignment:
+      <p>Assignment:</p>
       <img
         onClick={() => openURL(props.project.assignmentURL)}
         src={ICONS.Odin}

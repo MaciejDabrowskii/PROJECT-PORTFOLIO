@@ -8,7 +8,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
-
+import "./display_img_carousel.css";
 import IMAGES from "../../../data/projects_imgs";
 
 function DisplayImgCarousel(props)
@@ -34,59 +34,20 @@ function DisplayImgCarousel(props)
     setCurrentIndex(index);
   };
 
-  const slideContainerStyle = {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-  };
-
-  const slideImgContainerStyle = {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-  };
-  const slideImgStyle = {
-    width: "90%",
-    border: "6px solid rgb(24, 47, 80)",
-    borderRadius: "12px",
-    height: "auto",
-  };
-  const slideLeftArrowStyle = {
-    display: "flex",
-    alignItems: "center",
-    fontSize: "2.5rem",
-    cursor: "pointer",
-    color: "rgb(226, 187, 125)",
-    justifyContent: "center",
-    margin: "0 10px",
-    border: "none",
-  };
-  const slideRightArrowStyle = {
-    display: "flex",
-    alignItems: "center",
-    fontSize: "2.5rem",
-    cursor: "pointer",
-    color: "rgb(226, 187, 125)",
-    justifyContent: "center",
-    margin: "0 10px",
-    border: "none",
-  };
-
   return (
     <div
       className="projectCard-slide-container"
-      style={slideContainerStyle}
+
     >
       <div
         className="projectCard-slide-img-container"
-        style={slideImgContainerStyle}
+
       >
         <button
           type="button"
-          className="projectCard-slide-arrow-btn"
+          className="projectCard-slide-arrow-btn projectCard-slide-arrow-btn-left"
           onClick={previous}
-          style={slideLeftArrowStyle}
+
         >
           <FontAwesomeIcon
             className="projectCard-slide-arrow-icon"
@@ -96,13 +57,13 @@ function DisplayImgCarousel(props)
         <img
           className="projectCard-slide-img"
           src={IMAGES[props.project.name][currentIndex]}
-          style={slideImgStyle}
+
         />
         <button
           type="button"
-          className="projectCard-slide-arrow-btn"
+          className="projectCard-slide-arrow-btn projectCard-slide-arrow-btn-right"
           onClick={next}
-          style={slideRightArrowStyle}
+
         >
           <FontAwesomeIcon
             className="projectCard-slide-arrow-icon"
