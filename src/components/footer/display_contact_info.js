@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import DATA from "../../data/data";
 import DisplaySocials from "../shared/display_socials";
-import personalImg from "../../assets/Personal/personal_cropped.jpg";
+import personalImg from "../../assets/Personal/personal_cropped2.jpg";
 import "./display_contact_info.css";
 
 function DisplayFooter()
