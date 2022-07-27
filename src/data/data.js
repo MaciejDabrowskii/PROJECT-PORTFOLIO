@@ -7,7 +7,7 @@ const DATA = {
     phone: "+48-518-228-847",
     email: "dabrowski.mac.1@gmail.com",
     gitURL: "https://github.com/MaciejDabrowskii",
-    linkedinURL: "https://pl.linkedin.com/",
+    linkedinURL: "https://www.linkedin.com/in/maciej-d%C4%85browski-091a02246/",
     soundcloudURL: "https://soundcloud.com/maciej-d-browski-1",
     about:
     "Hello! I am an aspiring developer from Poland, and for the past few months, I have learned Software development with The Odin Project (Full Stack Open Source curriculum).\n\nMy goal is to become a full-fledged  Developer. I am looking for opportunities to obtain real-world experience to test and improve my newly acquired skill set.\n Also, to learn and grow as a developer.\n\nI am currently learning TypeScript and deepening my knowledge of ReactJS.",
