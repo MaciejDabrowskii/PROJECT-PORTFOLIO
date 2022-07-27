@@ -8,7 +8,7 @@
     Personal Portfolio
   </h1>
 
-  <img alt="App preview" src="">
+  <img alt="App preview" src="https://raw.githubusercontent.com/MaciejDabrowskii/PROJECT-PORTFOLIO/main/src/assets/Projects/Portfolio/portfolio_1.jpg">
 
 🔗 <b>[Live preview](https://maciejdabrowskii.github.io/PROJECT-PORTFOLIO/)</b>
 
