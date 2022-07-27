@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PROJECT-PORTFOLIO/static/css/main.5af05620.css",
-    "main.js": "/PROJECT-PORTFOLIO/static/js/main.c41e3019.js",
+    "main.css": "/PROJECT-PORTFOLIO/static/css/main.f88f1cc5.css",
+    "main.js": "/PROJECT-PORTFOLIO/static/js/main.9c4458e8.js",
     "static/media/personal_cropped.jpg": "/PROJECT-PORTFOLIO/static/media/personal_cropped.74bf37919fb14e5e25b0.jpg",
     "static/media/shopping_cart_1.jpg": "/PROJECT-PORTFOLIO/static/media/shopping_cart_1.186caab8570cc0362591.jpg",
     "static/media/shopping_cart_3.jpg": "/PROJECT-PORTFOLIO/static/media/shopping_cart_3.73bd10e0171a5b29b918.jpg",
@@ -9,8 +9,11 @@
     "static/media/personal_cropped2.jpg": "/PROJECT-PORTFOLIO/static/media/personal_cropped2.40244ee6d6a49e1ab770.jpg",
     "static/media/memory_card_2.jpg": "/PROJECT-PORTFOLIO/static/media/memory_card_2.909accc9de084393d1ba.jpg",
     "static/media/memory_card_1.jpg": "/PROJECT-PORTFOLIO/static/media/memory_card_1.a46f31f848e8ff2a495d.jpg",
+    "static/media/portfolio_1.jpg": "/PROJECT-PORTFOLIO/static/media/portfolio_1.d79aa09b775731497763.jpg",
+    "static/media/portfolio_2.jpg": "/PROJECT-PORTFOLIO/static/media/portfolio_2.39ac3218422470955159.jpg",
     "static/media/memory_card_3.jpg": "/PROJECT-PORTFOLIO/static/media/memory_card_3.0579f29420e70e344481.jpg",
     "static/media/battleship_3.jpg": "/PROJECT-PORTFOLIO/static/media/battleship_3.bc1c4fb126cc1d8fe24f.jpg",
+    "static/media/portfolio_3.jpg": "/PROJECT-PORTFOLIO/static/media/portfolio_3.64eb4f788ef814819a7b.jpg",
     "static/media/battleship_1.jpg": "/PROJECT-PORTFOLIO/static/media/battleship_1.5d8ef14d2ce7e7b5b380.jpg",
     "static/media/battleship_2.jpg": "/PROJECT-PORTFOLIO/static/media/battleship_2.28ac0e1dc61f7c91012a.jpg",
     "static/media/cv_app_1.jpg": "/PROJECT-PORTFOLIO/static/media/cv_app_1.eb9318c8267edfec1cc0.jpg",
@@ -20,11 +23,11 @@
     "static/media/cv_app_3.jpg": "/PROJECT-PORTFOLIO/static/media/cv_app_3.c900a28d7fed5b44c58f.jpg",
     "static/media/cv_app_2.jpg": "/PROJECT-PORTFOLIO/static/media/cv_app_2.58c9cd366b477b089317.jpg",
     "index.html": "/PROJECT-PORTFOLIO/index.html",
-    "main.5af05620.css.map": "/PROJECT-PORTFOLIO/static/css/main.5af05620.css.map",
-    "main.c41e3019.js.map": "/PROJECT-PORTFOLIO/static/js/main.c41e3019.js.map"
+    "main.f88f1cc5.css.map": "/PROJECT-PORTFOLIO/static/css/main.f88f1cc5.css.map",
+    "main.9c4458e8.js.map": "/PROJECT-PORTFOLIO/static/js/main.9c4458e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.5af05620.css",
-    "static/js/main.c41e3019.js"
+    "static/css/main.f88f1cc5.css",
+    "static/js/main.9c4458e8.js"
   ]
 }
