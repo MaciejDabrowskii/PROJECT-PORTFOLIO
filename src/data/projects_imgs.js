@@ -21,12 +21,16 @@ import weather_app_1 from "../assets/Projects/Weather_app/weather_app_1.jpg";
 import weather_app_2 from "../assets/Projects/Weather_app/weather_app_2.jpg";
 import weather_app_3 from "../assets/Projects/Weather_app/weather_app_3.jpg";
 
+import portfolio_1 from "../assets/Projects/Portfolio/portfolio_1.jpg";
+import portfolio_2 from "../assets/Projects/Portfolio/portfolio_2.jpg";
+import portfolio_3 from "../assets/Projects/Portfolio/portfolio_3.jpg";
+
 const IMAGES = {
   "Shopping Cart": [shopping_cart_1, shopping_cart_2, shopping_cart_3],
   "Memory Card": [memory_card_1, memory_card_2, memory_card_3],
   "CV App": [cv_app_1, cv_app_2, cv_app_3],
   "Battleship Game": [battleship_1, battleship_2, battleship_3],
   "Weather App": [weather_app_1, weather_app_2, weather_app_3],
-  Placeholder: [weather_app_1, weather_app_2, weather_app_3],
+  "Portfolio": [portfolio_1, portfolio_2, portfolio_3],
 };
 export default IMAGES;

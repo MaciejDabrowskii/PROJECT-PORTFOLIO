@@ -152,7 +152,6 @@
   z-index: 1;
   left: 24rem;
   top: 7rem;
-  /* border: 8px solid var(--tomato); */
 }
 
 .header-title {
@@ -191,7 +190,7 @@
 .socials-linkedIn-header:hover,
 .socials-github-header:hover,
 .socials-soundcloud-header:hover {
-  color: var(--tomato);
+  color: var(--orange);
   transition: color 200ms ease-in;
   cursor: pointer;
 }

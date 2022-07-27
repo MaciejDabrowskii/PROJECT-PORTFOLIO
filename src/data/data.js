@@ -10,14 +10,24 @@ const DATA = {
     linkedinURL: "https://pl.linkedin.com/",
     soundcloudURL: "https://soundcloud.com/maciej-d-browski-1",
     about:
-      "Hello! I am an aspiring developer from Poland, and for the past months, I have learned Software development with The Odin Project (full stack open source curriculum).\n\nMy goal is to become a full-fledged  Developer. I looking for opportunities to acquire real-world experience to test and improve my newly acquired skill set.\n Also, to learn and grow as a developer.\n\nI am currently learning TypeScript and deepening my knowledge of ReactJS.",
+    "Hello! I am an aspiring developer from Poland, and for the past few months, I have learned Software development with The Odin Project (Full Stack Open Source curriculum).\n\nMy goal is to become a full-fledged  Developer. I am looking for opportunities to obtain real-world experience to test and improve my newly acquired skill set.\n Also, to learn and grow as a developer.\n\nI am currently learning TypeScript and deepening my knowledge of ReactJS.",
   },
 
   Projects: [
     {
+      name: "Portfolio",
+      description:
+        "The project was created with the use of React library. The goal was to practice responsive web design.",
+      gitURL: "https://github.com/MaciejDabrowskii/PROJECT-PORTFOLIO",
+      assignmentURL: "https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-personal-portfolio",
+      previewURL: "https://maciejdabrowskii.github.io/PROJECT-PORTFOLIO/",
+      Technologies: ["HTML", "CSS", "JavaScript"],
+      Additional: ["React", "ESLint", "Git", "GitHub"],
+    },
+    {
       name: "Shopping Cart",
       description:
-        "The project was created with the use of React library. The goal was to practice the use of React Router and React Testing Library.",
+      "The project was created with the use of React library. The goal was to practice the use of React Router and React Testing Library.",
       gitURL: "https://github.com/MaciejDabrowskii/PROJECT-SHOPPING-CART",
       assignmentURL:
         "https://www.theodinproject.com/lessons/node-path-javascript-shopping-cart",
@@ -65,16 +75,6 @@ const DATA = {
       gitURL: "https://github.com/MaciejDabrowskii/PROJECT-WEATHER-APP",
       assignmentURL:
         "https://www.theodinproject.com/lessons/node-path-javascript-weather-app",
-      previewURL: "https://github.com/MaciejDabrowskii/PROJECT-WEATHER-APP",
-      Technologies: ["HTML", "CSS", "JavaScript"],
-      Additional: ["webpack", "ESLint", "Git", "GitHub"],
-    },
-    {
-      name: "Placeholder",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae feugiat turpis, vitae interdum ligula. Nunc vel nisl lacus.",
-      gitURL: "https://www.google.com",
-      assignmentURL: "https://www.google.com",
       previewURL: "https://github.com/MaciejDabrowskii/PROJECT-WEATHER-APP",
       Technologies: ["HTML", "CSS", "JavaScript"],
       Additional: ["webpack", "ESLint", "Git", "GitHub"],
