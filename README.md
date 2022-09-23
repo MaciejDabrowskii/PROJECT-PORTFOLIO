@@ -35,7 +35,6 @@ Personal Portfolio project, created with [React](https://reactjs.org/) library. 
 ### Libraries
 
 - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-- [React Select](https://react-select.com/home)
 - [Font Awesome](https://fontawesome.com/)
 
 ## Author
