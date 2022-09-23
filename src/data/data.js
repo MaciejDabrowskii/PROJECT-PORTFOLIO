@@ -17,10 +17,10 @@ const DATA = {
     {
       name: "E-commerce shop",
       description:
-      "E-commerce shop. The goal was to recreate a design from Figma with the given GraphQl endpoint.",
+      "E-commerce shop. The goal was to recreate a design from Figma with the given GraphQL endpoint.",
       gitURL: "https://github.com/MaciejDabrowskii/shop-graph-ql",
       Technologies: ["HTML", "CSS", "JavaScript"],
-      Additional: ["React", "GraphQl", "ESLint", "Git", "GitHub"],
+      Additional: ["React", "GraphQL", "ESLint", "Git", "GitHub"],
     },
     {
       name: "Portfolio",
