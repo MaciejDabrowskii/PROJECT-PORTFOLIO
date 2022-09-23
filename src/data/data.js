@@ -15,9 +15,9 @@ const DATA = {
 
   Projects: [
     {
-      name: "Shop",
+      name: "E-commerce shop",
       description:
-      "E-commerce shop. The goal was to reacreate desing from figma with given GraphQl endpoint.",
+      "E-commerce shop. The goal was to recreate a design from Figma with the given GraphQl endpoint.",
       gitURL: "https://github.com/MaciejDabrowskii/shop-graph-ql",
       Technologies: ["HTML", "CSS", "JavaScript"],
       Additional: ["React", "GraphQl", "ESLint", "Git", "GitHub"],

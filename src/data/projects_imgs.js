@@ -95,7 +95,7 @@ const imagesS = {
     portfolio_2_s,
     portfolio_3_s,
   ],
-  "Shop": [
+  "E-commerce shop": [
     shop_1_s,
     shop_2_s,
     shop_3_s,
@@ -136,7 +136,7 @@ const imagesL = {
     portfolio_2_l,
     portfolio_3_l,
   ],
-  "Shop": [
+  "E-commerce shop": [
     shop_1_l,
     shop_2_l,
     shop_3_l,
