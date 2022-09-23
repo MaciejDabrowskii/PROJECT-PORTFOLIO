@@ -23,6 +23,8 @@ const ICONS = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
 
   Odin: "https://avatars.githubusercontent.com/u/4441966?s=200&v=4",
+
+  GraphQl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
 };
 
 export default ICONS;

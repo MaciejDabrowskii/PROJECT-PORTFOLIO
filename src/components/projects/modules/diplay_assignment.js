@@ -9,16 +9,20 @@ import openURL from "../../../utils/open_url";
 
 function DisplayAssignment(props)
 {
+  const { project } = props;
   return (
+    project.assignmentURL && (
     <div className="projectCard-assignment-container">
       <p>Assignment:</p>
       <img
-        onClick={() => openURL(props.project.assignmentURL)}
+        onClick={() => openURL(project.assignmentURL)}
         src={ICONS.Odin}
         className="projectCard-assignment-logo"
         alt="ODIN logo"
       />
     </div>
+    )
+
   );
 }
 export default DisplayAssignment;

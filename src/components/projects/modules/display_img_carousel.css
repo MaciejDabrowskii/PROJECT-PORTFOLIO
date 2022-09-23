@@ -15,6 +15,7 @@
   border: 3px solid rgb(24 47 80);
   border-radius: 12px;
   height: auto;
+  cursor: pointer;
 }
 
 .projectCard-slide-arrow-btn-left {

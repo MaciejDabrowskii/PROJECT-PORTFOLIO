@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/style-prop-object */
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
@@ -15,8 +16,14 @@ import DisplayImgCarousel from "./modules/display_img_carousel";
 import DisplayLinks from "./modules/display_links";
 import DisplayAssignment from "./modules/diplay_assignment";
 import "./display_projects.css";
+import { imagesS } from "../../data/projects_imgs";
 
-function DisplayProjects()
+function DisplayProjects(
+  {
+    setImgPrevew,
+    overlay,
+  },
+)
 {
   const [expand, setExpand] = useState(() =>
   {
@@ -30,7 +37,7 @@ function DisplayProjects()
 
   const expandCard = (project) =>
   {
-    setExpand({ ...expand, [project.name]: !expand[project.name] });
+    setExpand((prevState) => ({ ...prevState, [project.name]: !prevState[project.name] }));
   };
 
   return (
@@ -43,7 +50,14 @@ function DisplayProjects()
               className={`projectCard${expand[project.name] ? " expand" : ""}`}
               key={project.name}
             >
-              <DisplayImgCarousel project={project} />
+              <DisplayImgCarousel
+                project={project}
+                providedClass="projectCard"
+                setImgPrevew={setImgPrevew}
+                overlay={overlay}
+                IMAGES={imagesS}
+                showClose={false}
+              />
               <div className="projectCard-header">
                 <h2 className="projectCard-title">{project.name}</h2>
                 <DisplayLinks project={project} />

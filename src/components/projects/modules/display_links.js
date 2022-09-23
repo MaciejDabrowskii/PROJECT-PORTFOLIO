@@ -10,10 +10,12 @@ import openURL from "../../../utils/open_url";
 
 function DisplayLinks(props)
 {
+  const { project } = props;
   return (
     <div className="projectCard-links-container">
+      {project.gitURL && (
       <div
-        onClick={() => openURL(props.project.gitURL)}
+        onClick={() => openURL(project.gitURL)}
         className="projectCard-link-github"
       >
         <FontAwesomeIcon
@@ -21,9 +23,11 @@ function DisplayLinks(props)
           icon={faGithub}
         />
       </div>
+      )}
+      {project.previewURL && (
       <div
         className="projectCard-link-preview"
-        onClick={() => openURL(props.project.previewURL)}
+        onClick={() => openURL(project.previewURL)}
       >
         {" "}
         <FontAwesomeIcon
@@ -31,6 +35,8 @@ function DisplayLinks(props)
           icon={faArrowUpRightFromSquare}
         />
       </div>
+      )}
+
     </div>
   );
 }
