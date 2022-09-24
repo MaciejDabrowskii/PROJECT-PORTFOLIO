@@ -55,16 +55,17 @@
 .overlay-preview-close-btn-container {
   height: 2vh;
   position: relative;
+  margin-bottom: 1.5vh;
 }
 
 .overlay-preview-close-btn {
   position: absolute;
   top: -2vh;
-  right: -4vh;
+  right: -6vh;
   border: none;
   background-color: inherit;
   color: var(--tomato);
-  font-size: 4vh;
+  font-size: 4.5vh;
   cursor: pointer;
   transition: all .3s ease-in-out;
 }
@@ -95,8 +96,16 @@
   transition: all .3s ease-in-out;
 }
 
+.overlay-slide-arrow-btn.overlay-slide-arrow-btn-right:active {
+  transform: translateY(-50%) translateX(1vh);
+}
+
+.overlay-slide-arrow-btn.overlay-slide-arrow-btn-left:active {
+  transform: translateY(-50%) translateX(-1vh);
+}
+
 .overlay-slide-indicator-container {
-  margin-top:1vh ;
+  margin-top:2vh ;
   display: flex;
   justify-content: center;
   align-items: center;
