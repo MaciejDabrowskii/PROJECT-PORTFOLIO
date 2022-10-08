@@ -21,7 +21,6 @@ function DisplayImgCarousel(props)
     IMAGES,
     showClose,
   } = props;
-  console.log(IMAGES);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const next = () =>

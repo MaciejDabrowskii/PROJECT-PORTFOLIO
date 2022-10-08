@@ -288,7 +288,7 @@
 
 .projectCard-expand-btn {
   border: none;
-  background-color: none;
+  background-color: inherit;
 }
 
 .projectCard-expand-container > * {

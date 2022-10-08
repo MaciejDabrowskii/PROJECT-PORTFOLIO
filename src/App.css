@@ -81,6 +81,7 @@
   color: var(--tomato);
   cursor: pointer;
   transition: all .3s ease-in-out;
+  background-color: inherit;
 }
 
 .overlay-slide-arrow-btn.overlay-slide-arrow-btn-right {
@@ -94,6 +95,7 @@
   color: var(--tomato);
   cursor: pointer;
   transition: all .3s ease-in-out;
+  background-color: inherit;
 }
 
 .overlay-slide-arrow-btn.overlay-slide-arrow-btn-right:active {
