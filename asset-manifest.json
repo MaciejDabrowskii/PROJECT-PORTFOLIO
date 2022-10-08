@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PROJECT-PORTFOLIO/static/css/main.401d7424.css",
-    "main.js": "/PROJECT-PORTFOLIO/static/js/main.98f74847.js",
+    "main.css": "/PROJECT-PORTFOLIO/static/css/main.18926642.css",
+    "main.js": "/PROJECT-PORTFOLIO/static/js/main.e25e1b2e.js",
     "static/media/personal_cropped.jpg": "/PROJECT-PORTFOLIO/static/media/personal_cropped.74bf37919fb14e5e25b0.jpg",
     "static/media/personal_cropped2.jpg": "/PROJECT-PORTFOLIO/static/media/personal_cropped2.40244ee6d6a49e1ab770.jpg",
     "static/media/shopping_cart_1.jpeg": "/PROJECT-PORTFOLIO/static/media/shopping_cart_1.834e07270ff092ca7410.jpeg",
@@ -29,11 +29,11 @@
     "static/media/shop_4.jpeg": "/PROJECT-PORTFOLIO/static/media/shop_4.ec52e1adf62956e465f0.jpeg",
     "static/media/shop_5.jpeg": "/PROJECT-PORTFOLIO/static/media/shop_5.6b89af223cd4ddcc6311.jpeg",
     "index.html": "/PROJECT-PORTFOLIO/index.html",
-    "main.401d7424.css.map": "/PROJECT-PORTFOLIO/static/css/main.401d7424.css.map",
-    "main.98f74847.js.map": "/PROJECT-PORTFOLIO/static/js/main.98f74847.js.map"
+    "main.18926642.css.map": "/PROJECT-PORTFOLIO/static/css/main.18926642.css.map",
+    "main.e25e1b2e.js.map": "/PROJECT-PORTFOLIO/static/js/main.e25e1b2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.401d7424.css",
-    "static/js/main.98f74847.js"
+    "static/css/main.18926642.css",
+    "static/js/main.e25e1b2e.js"
   ]
 }
