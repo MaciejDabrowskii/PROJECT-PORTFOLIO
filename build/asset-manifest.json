@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/PROJECT-PORTFOLIO/static/css/main.18926642.css",
-    "main.js": "/PROJECT-PORTFOLIO/static/js/main.e25e1b2e.js",
-    "static/media/personal_cropped.jpg": "/PROJECT-PORTFOLIO/static/media/personal_cropped.74bf37919fb14e5e25b0.jpg",
+    "main.js": "/PROJECT-PORTFOLIO/static/js/main.d2fc1890.js",
+    "static/media/personal_cropped.jpg": "/PROJECT-PORTFOLIO/static/media/personal_cropped.db19da0271b6deb31a8e.jpg",
     "static/media/personal_cropped2.jpg": "/PROJECT-PORTFOLIO/static/media/personal_cropped2.40244ee6d6a49e1ab770.jpg",
+    "static/media/shop_1.jpeg": "/PROJECT-PORTFOLIO/static/media/shop_1.546d85566b7955c23978.jpeg",
+    "static/media/shop_2.jpeg": "/PROJECT-PORTFOLIO/static/media/shop_2.f2a5561f9fabffea7bdb.jpeg",
+    "static/media/shop_3.jpeg": "/PROJECT-PORTFOLIO/static/media/shop_3.0b06f206535c56d19084.jpeg",
     "static/media/shopping_cart_1.jpeg": "/PROJECT-PORTFOLIO/static/media/shopping_cart_1.834e07270ff092ca7410.jpeg",
     "static/media/shopping_cart_2.jpeg": "/PROJECT-PORTFOLIO/static/media/shopping_cart_2.a4999bb4297664bec04a.jpeg",
     "static/media/shopping_cart_3.jpeg": "/PROJECT-PORTFOLIO/static/media/shopping_cart_3.ce1477de789a3fd77ed9.jpeg",
     "static/media/portfolio_1.jpeg": "/PROJECT-PORTFOLIO/static/media/portfolio_1.61da85338fce9ca98710.jpeg",
+    "static/media/shop_4.jpeg": "/PROJECT-PORTFOLIO/static/media/shop_4.50ec516b74d3b17d2b4b.jpeg",
     "static/media/portfolio_2.jpeg": "/PROJECT-PORTFOLIO/static/media/portfolio_2.fb15fe582b45be26ba34.jpeg",
     "static/media/memory_card_1.jpeg": "/PROJECT-PORTFOLIO/static/media/memory_card_1.62be4ec401f07f4fde16.jpeg",
     "static/media/memory_card_2.jpeg": "/PROJECT-PORTFOLIO/static/media/memory_card_2.3e062599c7062de02188.jpeg",
@@ -20,20 +24,15 @@
     "static/media/cv_app_4.jpeg": "/PROJECT-PORTFOLIO/static/media/cv_app_4.b387f47fb150d42f74e5.jpeg",
     "static/media/battleship_1.jpeg": "/PROJECT-PORTFOLIO/static/media/battleship_1.33812de43dd4ec79a070.jpeg",
     "static/media/battleship_2.jpeg": "/PROJECT-PORTFOLIO/static/media/battleship_2.2c03bc5f79f4e779332a.jpeg",
-    "static/media/shop_3.jpeg": "/PROJECT-PORTFOLIO/static/media/shop_3.e18e4d57722d10d21710.jpeg",
-    "static/media/shop_1.jpeg": "/PROJECT-PORTFOLIO/static/media/shop_1.296f6612363e9f3a39cf.jpeg",
-    "static/media/shop_2.jpeg": "/PROJECT-PORTFOLIO/static/media/shop_2.d41105ab6288f4d9df60.jpeg",
     "static/media/weather_app_3.jpeg": "/PROJECT-PORTFOLIO/static/media/weather_app_3.304fed0a2a353a03a9fa.jpeg",
     "static/media/weather_app_2.jpeg": "/PROJECT-PORTFOLIO/static/media/weather_app_2.e8e1bed3dceacc682a4e.jpeg",
     "static/media/weather_app_1.jpeg": "/PROJECT-PORTFOLIO/static/media/weather_app_1.73df74436e1076b1270e.jpeg",
-    "static/media/shop_4.jpeg": "/PROJECT-PORTFOLIO/static/media/shop_4.ec52e1adf62956e465f0.jpeg",
-    "static/media/shop_5.jpeg": "/PROJECT-PORTFOLIO/static/media/shop_5.6b89af223cd4ddcc6311.jpeg",
     "index.html": "/PROJECT-PORTFOLIO/index.html",
     "main.18926642.css.map": "/PROJECT-PORTFOLIO/static/css/main.18926642.css.map",
-    "main.e25e1b2e.js.map": "/PROJECT-PORTFOLIO/static/js/main.e25e1b2e.js.map"
+    "main.d2fc1890.js.map": "/PROJECT-PORTFOLIO/static/js/main.d2fc1890.js.map"
   },
   "entrypoints": [
     "static/css/main.18926642.css",
-    "static/js/main.e25e1b2e.js"
+    "static/js/main.d2fc1890.js"
   ]
 }
