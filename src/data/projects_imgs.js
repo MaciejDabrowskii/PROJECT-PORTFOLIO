@@ -55,13 +55,11 @@ import shop_1_s from "../assets/Projects/Shop/s/shop_1.jpeg";
 import shop_2_s from "../assets/Projects/Shop/s/shop_2.jpeg";
 import shop_3_s from "../assets/Projects/Shop/s/shop_3.jpeg";
 import shop_4_s from "../assets/Projects/Shop/s/shop_4.jpeg";
-import shop_5_s from "../assets/Projects/Shop/s/shop_5.jpeg";
 
 import shop_1_l from "../assets/Projects/Shop/l/shop_1.jpeg";
 import shop_2_l from "../assets/Projects/Shop/l/shop_2.jpeg";
 import shop_3_l from "../assets/Projects/Shop/l/shop_3.jpeg";
 import shop_4_l from "../assets/Projects/Shop/l/shop_4.jpeg";
-import shop_5_l from "../assets/Projects/Shop/l/shop_5.jpeg";
 
 const imagesS = {
   "Shopping Cart": [
@@ -100,7 +98,6 @@ const imagesS = {
     shop_2_s,
     shop_3_s,
     shop_4_s,
-    shop_5_s,
   ],
 };
 
@@ -141,7 +138,6 @@ const imagesL = {
     shop_2_l,
     shop_3_l,
     shop_4_l,
-    shop_5_l,
   ],
 };
 
