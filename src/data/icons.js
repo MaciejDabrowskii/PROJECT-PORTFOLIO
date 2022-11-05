@@ -25,6 +25,8 @@ const ICONS = {
   Odin: "https://avatars.githubusercontent.com/u/4441966?s=200&v=4",
 
   GraphQL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+
+  Firebase: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg",
 };
 
 export default ICONS;

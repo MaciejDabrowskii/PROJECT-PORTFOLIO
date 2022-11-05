@@ -61,6 +61,14 @@ import shop_2_l from "../assets/Projects/Shop/l/shop_2.jpeg";
 import shop_3_l from "../assets/Projects/Shop/l/shop_3.jpeg";
 import shop_4_l from "../assets/Projects/Shop/l/shop_4.jpeg";
 
+import photo_tag_1_s from "../assets/Projects/Photo_tagging_app/s/photo_tagging_app_1.jpg";
+import photo_tag_2_s from "../assets/Projects/Photo_tagging_app/s/photo_tagging_app_2.jpg";
+import photo_tag_3_s from "../assets/Projects/Photo_tagging_app/s/photo_tagging_app_3.jpg";
+
+import photo_tag_1_l from "../assets/Projects/Photo_tagging_app/l/photo_tagging_app_1.jpg";
+import photo_tag_2_l from "../assets/Projects/Photo_tagging_app/l/photo_tagging_app_2.jpg";
+import photo_tag_3_l from "../assets/Projects/Photo_tagging_app/l/photo_tagging_app_3.jpg";
+
 const imagesS = {
   "Shopping Cart": [
     shopping_cart_1_s,
@@ -93,11 +101,16 @@ const imagesS = {
     portfolio_2_s,
     portfolio_3_s,
   ],
-  "E-commerce shop": [
+  "Storefront": [
     shop_1_s,
     shop_2_s,
     shop_3_s,
     shop_4_s,
+  ],
+  "A Photo Tagging App": [
+    photo_tag_1_s,
+    photo_tag_2_s,
+    photo_tag_3_s,
   ],
 };
 
@@ -133,11 +146,16 @@ const imagesL = {
     portfolio_2_l,
     portfolio_3_l,
   ],
-  "E-commerce shop": [
+  "Storefront": [
     shop_1_l,
     shop_2_l,
     shop_3_l,
     shop_4_l,
+  ],
+  "A Photo Tagging App": [
+    photo_tag_1_l,
+    photo_tag_2_l,
+    photo_tag_3_l,
   ],
 };
 

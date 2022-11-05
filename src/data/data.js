@@ -15,9 +15,19 @@ const DATA = {
 
   Projects: [
     {
-      name: "E-commerce shop",
+      name: "A Photo Tagging App",
       description:
-      "E-commerce shop. The goal was to recreate a design from Figma with the given GraphQL endpoint.",
+      "A Photo Tagging App. The project uses BaaS (Firebase) as a back end.",
+      gitURL: "https://github.com/MaciejDabrowskii/Photo-Tagging-App-Firebase",
+      assignmentURL: "https://www.theodinproject.com/lessons/node-path-javascript-where-s-waldo-a-photo-tagging-app",
+      previewURL: "https://maciejdabrowskii.github.io/Photo-Tagging-App-Firebase/",
+      Technologies: ["HTML", "CSS", "JavaScript"],
+      Additional: ["React", "Firebase", "ESLint", "Git", "GitHub"],
+    },
+    {
+      name: "Storefront",
+      description:
+      "E-commerce Storefront. The goal was to create storefront according to the provided design with the given GraphQL endpoint.",
       gitURL: "https://github.com/MaciejDabrowskii/shop-graph-ql",
       Technologies: ["HTML", "CSS", "JavaScript"],
       Additional: ["React", "GraphQL", "ESLint", "Git", "GitHub"],
